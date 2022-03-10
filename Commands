@@ -1,0 +1,18 @@
+# Commands used in this project: 
+<hr>
+head() - It shows the first N rows in the data (by default, N=5)
+df.columns - It shows all columns in the dataset
+df[i].unique() - It shows unique values in a column where i is the name of any column in the dataframe
+df.index - It shows index of the data frame
+df.drop() - To remove duplicates
+df.ffill() - To fill the next row using the values of previous row
+df.isna().sum() - To check count of empty rows in each column
+df[i].astype() - To convert dtype of a column to another dtype
+pd.Series() - To make a pandas Series
+df.drop_duplicates() - To drop duplicate values if present
+plt.scatter() - To create a scatter plot 
+df.corr()  -To create correlation matrix of numerical columns default is pearson and other available methods are spearman and kendall
+sns.heatmap() - To Create a heat map representing correlation of the factors
+
+
+
